@@ -1,0 +1,646 @@
+{
+ "version": 1,
+ "places": [
+  {
+   "id": "gyeongbokgung-geunjeongjeon-woldae",
+   "palace": "경복궁",
+   "name": "근정전 월대 일대",
+   "tags": {
+    "mood": [
+     "grand",
+     "open"
+    ],
+    "aesthetic": [
+     "structure",
+     "stone"
+    ],
+    "history": [
+     "politics",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 900,
+    "stairs": "some",
+    "rest_spots": false,
+    "duration_min": 25
+   },
+   "walk_estimated": true,
+   "facts": "근정전은 조선의 법궁인 경복궁의 정전으로, 현재 국보 223호로 지정되어 있다. 1395년에 지어졌으나 임진왜란 때 소실되었고 1868년 흥선대원군의 경복궁 중건 때 다시 세워졌다. 국왕의 즉위식과 외국 사신 접견 같은 국가 의식이 치러진 곳이다.",
+   "feel": "넓은 박석 마당과 층층의 월대 앞에 서면 왕조의 위엄이 한눈에 들어온다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B7%BC%EC%A0%95%EC%A0%84"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Gyeongbokgung%28palace%29_Geunjeongjeon%28hall%29.jpg/960px-Gyeongbokgung%28palace%29_Geunjeongjeon%28hall%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung(palace)_Geunjeongjeon(hall).jpg",
+    "author": "Brady Bellini",
+    "license": "CC0",
+    "alt": "경복궁 근정전과 그 앞 월대 일대 전경"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "gyeongbokgung-gyeonghoeru",
+   "palace": "경복궁",
+   "name": "경회루",
+   "tags": {
+    "mood": [
+     "grand",
+     "water",
+     "open"
+    ],
+    "aesthetic": [
+     "structure",
+     "water",
+     "view"
+    ],
+    "history": [
+     "politics",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 1300,
+    "stairs": "few",
+    "rest_spots": true,
+    "duration_min": 20
+   },
+   "walk_estimated": true,
+   "facts": "경회루는 경복궁에 있는 누각으로, 조선시대에 연회를 열거나 외국 사신을 접견하던 곳이다. 1985년 1월 8일 국보 224호로 지정되었다.",
+   "feel": "넓은 연못 위에 떠 있는 거대한 누각이 물결에 비쳐 마음이 탁 트인다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B2%BD%ED%9A%8C%EB%A3%A8"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg/960px-Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyeonghoeru_(Royal_Banquet_Hall)_at_Gyeongbokgung_Palace,_Seoul.jpg",
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "alt": "연못 위에 서 있는 경복궁 경회루"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "gyeongbokgung-hyangwonjeong",
+   "palace": "경복궁",
+   "name": "향원정",
+   "tags": {
+    "mood": [
+     "quiet",
+     "water",
+     "open"
+    ],
+    "aesthetic": [
+     "garden",
+     "water",
+     "view"
+    ],
+    "history": [
+     "architecture",
+     "people"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 2000,
+    "stairs": "none",
+    "rest_spots": true,
+    "duration_min": 25
+   },
+   "walk_estimated": true,
+   "facts": "향원정은 경복궁 후원 영역의 향원지 가운데 섬 위에 세워진 2층 육각 목조 정자이다. 2012년 3월 2일 보물로 지정되었고, 1885년에 세워진 것으로 추정된다. '향원'은 '향기가 멀리 간다'는 뜻이다.",
+   "feel": "잔잔한 연못에 정자가 그대로 비치는, 경복궁에서 가장 고요한 쉼터다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%9B%90%EC%A0%95"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Water_reflection_of_Hyangwonjeong_Pavilion_at_Gyeongbokgung_Palace_in_Seoul.jpg/960px-Water_reflection_of_Hyangwonjeong_Pavilion_at_Gyeongbokgung_Palace_in_Seoul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_Hyangwonjeong_Pavilion_at_Gyeongbokgung_Palace_in_Seoul.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "alt": "연못에 비친 경복궁 향원정"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "gyeongbokgung-jagyeongjeon-flowerwall",
+   "palace": "경복궁",
+   "name": "자경전 꽃담",
+   "tags": {
+    "mood": [
+     "quiet",
+     "hidden"
+    ],
+    "aesthetic": [
+     "color",
+     "garden",
+     "structure"
+    ],
+    "history": [
+     "people",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 1700,
+    "stairs": "none",
+    "rest_spots": false,
+    "duration_min": 15
+   },
+   "walk_estimated": true,
+   "facts": "경복궁 자경전은 고종 4년(1867년) 흥선대원군이 대왕대비 조씨를 위해 지은 전각으로, 고종 10년 화재로 불탄 뒤 1888년에 다시 지었다. 1985년 1월 8일 보물 809호로 지정되었다.",
+   "feel": "아기자기한 무늬의 담장을 따라 걷는 조용한 골목 같은 길이다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B2%BD%EC%A0%84"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Korea-Gyeongbokgung-Jagyeongjeon-01.jpg/960px-Korea-Gyeongbokgung-Jagyeongjeon-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Korea-Gyeongbokgung-Jagyeongjeon-01.jpg",
+    "author": "by abex",
+    "license": "CC BY-SA 2.0",
+    "alt": "경복궁 자경전 바깥 담장의 무늬"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "changdeokgung-huwon-buyongji",
+   "palace": "창덕궁",
+   "name": "후원(부용지 일대)",
+   "tags": {
+    "mood": [
+     "quiet",
+     "hidden",
+     "shade"
+    ],
+    "aesthetic": [
+     "garden",
+     "water",
+     "view"
+    ],
+    "history": [
+     "people",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 2800,
+    "stairs": "many",
+    "rest_spots": true,
+    "duration_min": 60
+   },
+   "walk_estimated": true,
+   "facts": "창덕궁 후원은 한국 최대의 궁중 정원으로, 임금의 산책지로 설계되었으며 1997년 창덕궁과 함께 세계문화유산으로 지정되었다. 정조는 후원에 부용지를 중심으로 부용정, 주합루, 서향각을 세웠다.",
+   "feel": "숲과 연못과 정자가 숨은 듯 이어져 궁궐 속의 비밀 정원을 걷는 기분이다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%8D%95%EA%B6%81_%ED%9B%84%EC%9B%90",
+    "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%8D%95%EA%B6%81"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Changdeokgung_Buyongji_in_2026.jpg/960px-Changdeokgung_Buyongji_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Changdeokgung_Buyongji_in_2026.jpg",
+    "author": "Sadopaul",
+    "license": "CC BY-SA 4.0",
+    "alt": "창덕궁 후원의 부용지"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "changdeokgung-huwon-aeryeonji",
+   "palace": "창덕궁",
+   "name": "후원 애련지 일대",
+   "tags": {
+    "mood": [
+     "quiet",
+     "hidden",
+     "shade"
+    ],
+    "aesthetic": [
+     "garden",
+     "water"
+    ],
+    "history": [
+     "people"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 3000,
+    "stairs": "many",
+    "rest_spots": true,
+    "duration_min": 40
+   },
+   "walk_estimated": true,
+   "facts": "창덕궁 후원에는 규장각, 영화당, 연경당 같은 여러 건물과 정자, 연못, 물이 흐르는 옥류천이 있고 수백 종의 나무가 자란다. 애련지는 이 후원 안의 연못이다.",
+   "feel": "그늘진 숲길 끝에서 만나는 작은 연못이 오래 머물고 싶게 한다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%8D%95%EA%B6%81_%ED%9B%84%EC%9B%90"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Aeryeonji_Pond_01.jpg/960px-Aeryeonji_Pond_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Aeryeonji_Pond_01.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "alt": "창덕궁 후원의 애련지와 애련정"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "changdeokgung-injeongjeon",
+   "palace": "창덕궁",
+   "name": "인정전",
+   "tags": {
+    "mood": [
+     "grand",
+     "open"
+    ],
+    "aesthetic": [
+     "structure",
+     "stone"
+    ],
+    "history": [
+     "politics",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 700,
+    "stairs": "few",
+    "rest_spots": false,
+    "duration_min": 20
+   },
+   "walk_estimated": true,
+   "facts": "창덕궁 인정전은 창덕궁의 정전으로, 왕이 외국 사신을 접견하고 신하들에게 조하를 받던 공식 국가행사 장소이다. 임진왜란 뒤 한동안 경복궁 근정전 대신 정전으로 사용되었고, 1985년 1월 8일 국보 225호로 지정되었다.",
+   "feel": "품계석이 늘어선 마당에서 정전의 격식 있는 분위기를 느낄 수 있다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%A0%95%EC%A0%84_%28%EC%B0%BD%EB%8D%95%EA%B6%81%29",
+    "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%8D%95%EA%B6%81"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Injeongjeon_Hall_01.jpg/960px-Injeongjeon_Hall_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Injeongjeon_Hall_01.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "alt": "창덕궁 인정전"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "changdeokgung-nakseonjae",
+   "palace": "창덕궁",
+   "name": "낙선재",
+   "tags": {
+    "mood": [
+     "quiet",
+     "hidden"
+    ],
+    "aesthetic": [
+     "structure",
+     "garden",
+     "color"
+    ],
+    "history": [
+     "people"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 2000,
+    "stairs": "few",
+    "rest_spots": false,
+    "duration_min": 30
+   },
+   "walk_estimated": true,
+   "facts": "낙선재는 1847년에 헌종의 서재 겸 휴식 공간으로 지어진 건물로, 2012년 3월 2일 보물로 지정되었다. 마지막 황후 순정효황후, 의민태자와 이방자, 덕혜옹주 등 황족들이 말년을 보낸 곳으로 알려져 있다.",
+   "feel": "화려하지 않은 단아한 집과 마당에서 조용한 삶의 결이 느껴진다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%82%99%EC%84%A0%EC%9E%AC"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/%EB%82%99%EC%84%A0%EC%9E%AC.jpg/960px-%EB%82%99%EC%84%A0%EC%9E%AC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%EB%82%99%EC%84%A0%EC%9E%AC.jpg",
+    "author": "지홍 민",
+    "license": "CC BY-SA 4.0",
+    "alt": "눈 덮인 창덕궁 낙선재"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "changgyeonggung-tongmyeongjeon",
+   "palace": "창경궁",
+   "name": "통명전 일대",
+   "tags": {
+    "mood": [
+     "quiet",
+     "hidden",
+     "shade"
+    ],
+    "aesthetic": [
+     "structure",
+     "garden",
+     "stone"
+    ],
+    "history": [
+     "people",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 1100,
+    "stairs": "some",
+    "rest_spots": true,
+    "duration_min": 25
+   },
+   "walk_estimated": true,
+   "facts": "창경궁 통명전은 왕의 침전 겸 연회용 건물로, 명정전 서북쪽 궁궐 안 가장 깊숙한 곳에 자리 잡았다. 동쪽에 있는 왕비의 침전인 환경전과 함께 남향하고 있다.",
+   "feel": "궁궐 가장 깊은 곳에서 만나는 고즈넉하고 아늑한 안뜰이다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%ED%86%B5%EB%AA%85%EC%A0%84"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Korea-Seoul-Changgyeonggung-Tongmyeongjeon-01.jpg/960px-Korea-Seoul-Changgyeonggung-Tongmyeongjeon-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Changgyeonggung-Tongmyeongjeon-01.jpg",
+    "author": "Gapo at Korean Wikipedia",
+    "license": "Public domain",
+    "alt": "창경궁 통명전"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "changgyeonggung-chundangji",
+   "palace": "창경궁",
+   "name": "춘당지",
+   "tags": {
+    "mood": [
+     "quiet",
+     "open",
+     "water"
+    ],
+    "aesthetic": [
+     "garden",
+     "water",
+     "view"
+    ],
+    "history": [
+     "people"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 1500,
+    "stairs": "few",
+    "rest_spots": true,
+    "duration_min": 25
+   },
+   "walk_estimated": true,
+   "facts": "창경궁에는 일제강점기에 동물원과 식물원이 들어섰고, 권농장 자리에 연못을 파서 춘당지라 불렀다는 기록이 있다. 1983년 동물원과 식물원을 옮기고 이름도 창경궁으로 되찾았다.",
+   "feel": "탁 트인 연못가를 느긋하게 걷기 좋은 산책길이다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%B0%BD%EA%B2%BD%EA%B6%81"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Chundangji_Pond_%28%EC%B6%98%EB%8B%B9%EC%A7%80%29.jpg/960px-Chundangji_Pond_%28%EC%B6%98%EB%8B%B9%EC%A7%80%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chundangji_Pond_(%EC%B6%98%EB%8B%B9%EC%A7%80).jpg",
+    "author": "Noh Mun Duek",
+    "license": "CC BY-SA 4.0",
+    "alt": "창경궁 춘당지"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "changgyeonggung-myeongjeongjeon",
+   "palace": "창경궁",
+   "name": "명정전",
+   "tags": {
+    "mood": [
+     "grand",
+     "open"
+    ],
+    "aesthetic": [
+     "structure",
+     "stone"
+    ],
+    "history": [
+     "politics",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 500,
+    "stairs": "few",
+    "rest_spots": false,
+    "duration_min": 15
+   },
+   "walk_estimated": true,
+   "facts": "창경궁 명정전은 창경궁의 정전으로, 돌로 된 월대 위에 정면 5칸 측면 3칸의 단층 다포계 팔작지붕으로 지어졌다. 1985년 1월 8일 국보 226호로 지정되었다.",
+   "feel": "아담한 규모의 정전이지만 낮은 월대 위에서 단정한 품격이 느껴진다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%AA%85%EC%A0%95%EC%A0%84"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/%EC%B0%BD%EA%B2%BD%EA%B6%81_%EB%AA%85%EC%A0%95%EC%A0%84.jpg/960px-%EC%B0%BD%EA%B2%BD%EA%B6%81_%EB%AA%85%EC%A0%95%EC%A0%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%EC%B0%BD%EA%B2%BD%EA%B6%81_%EB%AA%85%EC%A0%95%EC%A0%84.jpg",
+    "author": "Osidaj",
+    "license": "CC BY-SA 4.0",
+    "alt": "창경궁 명정전"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "deoksugung-seokjojeon",
+   "palace": "덕수궁",
+   "name": "석조전",
+   "tags": {
+    "mood": [
+     "grand",
+     "open"
+    ],
+    "aesthetic": [
+     "eclectic",
+     "structure",
+     "garden"
+    ],
+    "history": [
+     "politics",
+     "architecture",
+     "people"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 600,
+    "stairs": "few",
+    "rest_spots": true,
+    "duration_min": 30
+   },
+   "walk_estimated": true,
+   "facts": "석조전은 덕수궁의 서양식 건물로, 한국에서 가장 오래된 신고전주의 양식의 석조 건물이다. 영국인 하딩이 설계해 1900년 기공하여 1909년 준공했고, 2014년 복원공사 후 석조전 대한제국역사관으로 개관했다.",
+   "feel": "한옥 궁궐 속에 불쑥 나타난 서양식 석조 건물과 정원이 이색적이다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%84%9D%EC%A1%B0%EC%A0%84"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Seokjojeon.jpg/960px-Seokjojeon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Seokjojeon.jpg",
+    "author": "Kimhs5400(블루시티)",
+    "license": "CC BY-SA 4.0",
+    "alt": "덕수궁 석조전과 서양식 정원"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "deoksugung-deokhongjeon",
+   "palace": "덕수궁",
+   "name": "덕홍전",
+   "tags": {
+    "mood": [
+     "quiet",
+     "hidden"
+    ],
+    "aesthetic": [
+     "eclectic",
+     "structure"
+    ],
+    "history": [
+     "people",
+     "politics"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 500,
+    "stairs": "few",
+    "rest_spots": false,
+    "duration_min": 10
+   },
+   "walk_estimated": true,
+   "facts": "덕홍전은 덕수궁 안에 있는 전각이다. 덕수궁은 1897년 고종이 러시아 공사관에서 이 궁으로 거처를 옮기면서 궁궐다운 전각들을 갖추게 되었고, 1904년 큰 화재로 대부분 소실되어 이듬해 다시 지어졌다. (덕홍전 건물 자체의 상세 설명은 확인된 출처가 없어, 덕수궁 전체의 이야기로 대신해요.)",
+   "feel": "대한제국의 격동기를 품은 아담한 전각이 한적하게 서 있다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Deoksugung_Palace_20240409_089.jpg/960px-Deoksugung_Palace_20240409_089.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Deoksugung_Palace_20240409_089.jpg",
+    "author": "Mobius6",
+    "license": "CC BY 4.0",
+    "alt": "덕수궁 덕홍전"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "deoksugung-jeonggwanheon",
+   "palace": "덕수궁",
+   "name": "정관헌",
+   "tags": {
+    "mood": [
+     "quiet",
+     "hidden",
+     "shade"
+    ],
+    "aesthetic": [
+     "eclectic",
+     "view",
+     "structure"
+    ],
+    "history": [
+     "people",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 900,
+    "stairs": "some",
+    "rest_spots": true,
+    "duration_min": 15
+   },
+   "walk_estimated": true,
+   "facts": "정관헌은 덕수궁의 서양식 정자로, 동양적 요소가 가미되어 있으며 1900년경 건립된 것으로 추정된다. 벽돌 벽체에 석조 기둥을 세우고 밖으로 목조 기둥을 두른 구조를 가지고 있다.",
+   "feel": "동서양이 섞인 베란다 같은 정자에서 쉬어 가기 좋다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%A0%95%EA%B4%80%ED%97%8C"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/20260509_Jeonggwanheon_1.jpg/960px-20260509_Jeonggwanheon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:20260509_Jeonggwanheon_1.jpg",
+    "author": "YellowTurtle9",
+    "license": "CC BY-SA 4.0",
+    "alt": "덕수궁 정관헌 정면"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "gyeonghuigung-sungjeongjeon",
+   "palace": "경희궁",
+   "name": "숭정전 일대",
+   "tags": {
+    "mood": [
+     "quiet",
+     "open"
+    ],
+    "aesthetic": [
+     "structure",
+     "stone"
+    ],
+    "history": [
+     "politics",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 400,
+    "stairs": "few",
+    "rest_spots": true,
+    "duration_min": 20
+   },
+   "walk_estimated": true,
+   "facts": "숭정전은 원래 경희궁의 정전이었다. 경희궁은 광해군 때인 1617년에서 1620년 사이에 경덕궁으로 세워졌다. 숭정전은 1926년 남산 기슭으로 옮겨졌고, 현재 동국대학교의 법당인 정각원으로 쓰이고 있다. (사진은 옛 건물의 모습이며, 현재 경희궁 현장과 다를 수 있어요.)",
+   "feel": "도심 속에서 한적하게 옛 궁궐의 정전 터를 되짚어 볼 수 있다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B2%BD%ED%9D%AC%EA%B6%81_%EC%88%AD%EC%A0%95%EC%A0%84",
+    "https://ko.wikipedia.org/wiki/%EA%B2%BD%ED%9D%AC%EA%B6%81"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/B004810_%EA%B2%BD%ED%9D%AC%EA%B6%81%EC%88%AD%EC%A0%95%EC%A0%84%EC%A0%95%EB%A9%B4.jpg/960px-B004810_%EA%B2%BD%ED%9D%AC%EA%B6%81%EC%88%AD%EC%A0%95%EC%A0%84%EC%A0%95%EB%A9%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:B004810_%EA%B2%BD%ED%9D%AC%EA%B6%81%EC%88%AD%EC%A0%95%EC%A0%84%EC%A0%95%EB%A9%B4.jpg",
+    "author": "Government-General of Chōsen",
+    "license": "Public domain",
+    "alt": "옛 사진 속 경희궁 숭정전 정면"
+   },
+   "verified_on": "2026-10-09"
+  },
+  {
+   "id": "deoksugung-junghwajeon",
+   "palace": "덕수궁",
+   "name": "중화전",
+   "tags": {
+    "mood": [
+     "grand",
+     "open"
+    ],
+    "aesthetic": [
+     "structure",
+     "stone"
+    ],
+    "history": [
+     "politics",
+     "architecture"
+    ]
+   },
+   "walk": {
+    "steps_from_entrance": 400,
+    "stairs": "few",
+    "rest_spots": false,
+    "duration_min": 15
+   },
+   "walk_estimated": true,
+   "facts": "중화전은 덕수궁의 정전으로, 고종이 대한제국 황제가 된 뒤 1902년에 지었다. 1904년 화재로 소실된 뒤 1906년 단층 전각으로 다시 지어졌다. 2중의 넓은 월대 위에 세워졌고, 앞뜰에는 품계석이 어도 좌우로 배열되어 있다.",
+   "feel": "넓은 월대와 품계석 마당에서 대한제국 황제의 궁궐다운 위용을 느낄 수 있다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%A4%91%ED%99%94%EC%A0%84"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/20131215_%EB%8D%95%EC%88%98%EA%B6%81_%EC%A4%91%ED%99%94%EC%A0%84.jpg/960px-20131215_%EB%8D%95%EC%88%98%EA%B6%81_%EC%A4%91%ED%99%94%EC%A0%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:20131215_%EB%8D%95%EC%88%98%EA%B6%81_%EC%A4%91%ED%99%94%EC%A0%84.jpg",
+    "author": "Hangidan",
+    "license": "CC BY-SA 4.0",
+    "alt": "덕수궁 중화전"
+   },
+   "verified_on": "2026-10-09"
+  }
+ ]
+}

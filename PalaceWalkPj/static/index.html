@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>궁궐 산책 진단</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<main>
+  <header class="topbar">
+    <h1>오늘의 마음과 걸음에 맞는 궁궐 산책</h1>
+    <nav aria-label="계정">
+      <button id="btn-notes" hidden>내 산책 노트</button>
+      <button id="btn-account">로그인</button>
+    </nav>
+  </header>
+
+  <div id="status" class="sr-only" role="status" aria-live="polite"></div>
+
+  <section id="start" class="card">
+    <p>20개의 간단한 질문으로 오늘의 마음·몸·취향을 알아보고, 어울리는 궁궐 속 장소를 추천해 드려요. 약 3분이 걸려요.</p>
+    <button id="btn-start" class="primary" disabled>산책 진단 시작</button>
+    <button id="btn-last" class="block" hidden>지난번 취향으로 시작 (취향 10문항 건너뛰기)</button>
+    <p id="resume" class="muted" hidden></p>
+    <p id="load-error" class="error" role="alert" hidden></p>
+  </section>
+
+  <section id="quiz" class="card" hidden>
+    <div class="progress" role="progressbar" aria-label="진행률" aria-valuemin="0" aria-valuemax="20" id="progress"><div id="bar"></div></div>
+    <p id="sec" class="muted"></p>
+    <fieldset>
+      <legend id="qtext" tabindex="-1"></legend>
+      <div id="opts"></div>
+    </fieldset>
+    <p id="quiz-error" class="error" role="alert" hidden></p>
+    <div class="nav">
+      <button id="btn-prev">이전</button>
+      <button id="btn-next" class="primary" disabled>다음</button>
+    </div>
+  </section>
+
+  <section id="loading" class="card" hidden>
+    <div class="spinner" aria-hidden="true"></div>
+    <p id="loading-text">잠시만 기다려 주세요…</p>
+  </section>
+
+  <section id="result" class="card" hidden>
+    <h2 id="result-h" tabindex="-1">오늘의 나</h2>
+    <p id="summary" class="lead"></p>
+    <p id="notice" class="muted" hidden></p>
+    <div id="meters"></div>
+    <div id="tags"></div>
+    <p id="rec-error" class="error" role="alert" hidden></p>
+    <div class="nav">
+      <button id="btn-retry">다시 진단하기</button>
+      <button id="btn-recommend" class="primary">장소 추천받기</button>
+    </div>
+    <details><summary>상태 프로필 JSON</summary><pre id="json"></pre></details>
+  </section>
+
+  <section id="place" class="card" hidden>
+    <h2 id="place-h" tabindex="-1">오늘의 추천 장소</h2>
+    <div id="place-card"></div>
+    <h3>다른 곳도 볼래요?</h3>
+    <div id="alts"></div>
+    <p id="rec-notice" class="muted" hidden></p>
+    <p class="muted">정보는 참고용이에요. 방문 전 공식 안내(관람 시간·휴관일·예약)를 확인해 주세요.</p>
+    <div class="nav">
+      <button id="btn-save">♡ 이 장소 저장</button>
+    </div>
+    <p id="save-msg" class="muted" role="status" hidden></p>
+    <div class="nav">
+      <button id="btn-back">진단 결과로</button>
+      <button id="btn-again">다시 진단하기</button>
+    </div>
+  </section>
+
+  <section id="auth" class="card" hidden>
+    <h2 id="auth-h" tabindex="-1">로그인</h2>
+    <p id="auth-hint" class="muted" hidden></p>
+    <form id="auth-form" novalidate>
+      <label for="f-email">이메일</label>
+      <input id="f-email" type="email" autocomplete="email" maxlength="254" required>
+      <div id="nick-row" hidden>
+        <label for="f-nick">닉네임 (선택)</label>
+        <input id="f-nick" type="text" autocomplete="nickname" maxlength="30">
+      </div>
+      <label for="f-pw">비밀번호 <span id="pw-hint" class="muted" hidden>(8자 이상)</span></label>
+      <input id="f-pw" type="password" autocomplete="current-password" maxlength="128" required>
+      <p id="auth-error" class="error" role="alert" hidden></p>
+      <button id="auth-submit" class="primary block" type="submit">로그인</button>
+    </form>
+    <button id="auth-toggle" class="link">계정이 없나요? 가입하기</button>
+    <p class="muted">이메일과 진단·저장 내용은 이 서비스에만 저장돼요. 언제든 계정을 삭제할 수 있어요.</p>
+    <button id="auth-cancel" class="block">돌아가기</button>
+  </section>
+
+  <section id="notes" class="card" hidden>
+    <h2 id="notes-h" tabindex="-1">내 산책 노트</h2>
+    <p id="who" class="muted"></p>
+    <label for="palace-filter">궁 필터</label>
+    <select id="palace-filter"><option value="">전체</option></select>
+    <div id="notes-list"></div>
+    <p id="notes-empty" class="muted" hidden>아직 저장한 곳이 없어요. 진단 후 마음에 드는 장소를 저장해 보세요.</p>
+    <p id="notes-error" class="error" role="alert" hidden></p>
+    <details id="history"><summary>내 진단 이력</summary><div id="history-list"></div></details>
+    <details><summary>계정 관리</summary>
+      <div class="acct">
+        <button id="btn-logout">로그아웃</button>
+        <button id="btn-delete" class="danger">계정과 모든 기록 삭제</button>
+      </div>
+    </details>
+    <button id="notes-back" class="block">돌아가기</button>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

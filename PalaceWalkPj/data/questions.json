@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "sections": [
+    {"id": "mind", "title": "마음", "desc": "오늘 마음은 어떤가요?"},
+    {"id": "body", "title": "몸", "desc": "오늘 몸 상태는 어떤가요?"},
+    {"id": "taste", "title": "취향", "desc": "어떤 곳에 마음이 끌리나요?"}
+  ],
+  "questions": [
+    {"id": "m1", "section": "mind", "text": "지금 마음의 에너지는 어느 정도인가요?", "options": [
+      {"id": "a", "text": "방전됐어요. 아무것도 하기 싫어요", "set": {"energy": 0}},
+      {"id": "b", "text": "조금 가라앉아 있어요", "set": {"energy": 1}},
+      {"id": "c", "text": "보통이에요", "set": {"energy": 2}},
+      {"id": "d", "text": "활기가 있어요", "set": {"energy": 3}}]},
+    {"id": "m2", "section": "mind", "text": "요즘 긴장이나 스트레스는 어느 정도인가요?", "options": [
+      {"id": "a", "text": "거의 없어요", "set": {"tension": 0}},
+      {"id": "b", "text": "약간 있어요", "set": {"tension": 1}},
+      {"id": "c", "text": "꽤 많아요", "set": {"tension": 2}},
+      {"id": "d", "text": "한계에 가까워요", "set": {"tension": 3}}]},
+    {"id": "m3", "section": "mind", "text": "오늘은 누구와 있고 싶으세요?", "options": [
+      {"id": "a", "text": "완전히 혼자 있고 싶어요", "set": {"company_mood": "solo"}},
+      {"id": "b", "text": "혼자지만 사람 구경은 괜찮아요", "set": {"company_mood": "solo_open"}},
+      {"id": "c", "text": "가까운 사람과 도란도란", "set": {"company_mood": "together"}},
+      {"id": "d", "text": "여럿이 활기차게", "set": {"company_mood": "group"}}]},
+    {"id": "m4", "section": "mind", "text": "머릿속은 어떤 상태인가요?", "options": [
+      {"id": "a", "text": "생각이 엉켜 정리가 안 돼요", "set": {"clutter": 3}},
+      {"id": "b", "text": "해야 할 일이 맴돌아요", "set": {"clutter": 2}},
+      {"id": "c", "text": "대체로 차분해요", "set": {"clutter": 1}},
+      {"id": "d", "text": "텅 빈 듯 멍해요", "set": {"clutter": 0}}]},
+    {"id": "m5", "section": "mind", "text": "산책에서 가장 얻고 싶은 것은?", "options": [
+      {"id": "a", "text": "위로와 안정", "set": {"want": "comfort"}},
+      {"id": "b", "text": "기분 전환과 환기", "set": {"want": "refresh"}},
+      {"id": "c", "text": "새로운 영감과 생각거리", "set": {"want": "inspire"}},
+      {"id": "d", "text": "아무 생각 없는 고요", "set": {"want": "quiet"}}]},
+
+    {"id": "b1", "section": "body", "text": "오늘 몸의 피로도는?", "options": [
+      {"id": "a", "text": "매우 피곤해요", "set": {"fatigue": 3}},
+      {"id": "b", "text": "꽤 피곤해요", "set": {"fatigue": 2}},
+      {"id": "c", "text": "약간 피곤해요", "set": {"fatigue": 1}},
+      {"id": "d", "text": "가뿐해요", "set": {"fatigue": 0}}]},
+    {"id": "b2", "section": "body", "text": "오늘 걸을 수 있는 정도는?", "options": [
+      {"id": "a", "text": "2,000보 이내로 가볍게", "set": {"max_steps": 2000}},
+      {"id": "b", "text": "3,000~4,000보", "set": {"max_steps": 4000}},
+      {"id": "c", "text": "6,000보 정도", "set": {"max_steps": 6000}},
+      {"id": "d", "text": "8,000보 이상도 문제없어요", "set": {"max_steps": 9000}}]},
+    {"id": "b3", "section": "body", "text": "계단이나 오르막은 어떠세요?", "options": [
+      {"id": "a", "text": "피하고 싶어요(평지만)", "set": {"stairs": "none"}},
+      {"id": "b", "text": "아주 조금은 괜찮아요", "set": {"stairs": "few"}},
+      {"id": "c", "text": "보통 정도는 괜찮아요", "set": {"stairs": "some"}},
+      {"id": "d", "text": "언덕도 즐겁게 올라요", "set": {"stairs": "many"}}]},
+    {"id": "b4", "section": "body", "text": "오늘 야외에서 버틸 수 있는 시간은?", "options": [
+      {"id": "a", "text": "30분 이내", "set": {"outdoor_min": 30}},
+      {"id": "b", "text": "1시간 정도", "set": {"outdoor_min": 60}},
+      {"id": "c", "text": "2시간 정도", "set": {"outdoor_min": 120}},
+      {"id": "d", "text": "반나절도 가능", "set": {"outdoor_min": 240}}]},
+    {"id": "b5", "section": "body", "text": "중간에 앉아 쉴 곳이 필요한가요?", "options": [
+      {"id": "a", "text": "꼭 필요해요", "set": {"rest": 3}},
+      {"id": "b", "text": "있으면 좋아요", "set": {"rest": 2}},
+      {"id": "c", "text": "가끔이면 돼요", "set": {"rest": 1}},
+      {"id": "d", "text": "필요 없어요", "set": {"rest": 0}}]},
+
+    {"id": "t1", "section": "taste", "category": "역사", "text": "궁궐의 역사 중 어떤 이야기에 끌리나요?", "options": [
+      {"id": "a", "text": "왕과 정치, 권력의 드라마", "tags": {"history": ["politics"]}},
+      {"id": "b", "text": "건축과 의례, 공간의 쓰임", "tags": {"history": ["architecture"]}},
+      {"id": "c", "text": "궁에 살았던 사람들의 삶", "tags": {"history": ["people"]}},
+      {"id": "d", "text": "역사보다는 지금의 분위기", "tags": {"history": ["none"]}}]},
+    {"id": "t2", "section": "taste", "category": "역사", "text": "설명을 얼마나 듣고 싶으세요?", "options": [
+      {"id": "a", "text": "한두 줄이면 충분해요", "set": {"depth": 0}},
+      {"id": "b", "text": "핵심만 짧게", "set": {"depth": 1}},
+      {"id": "c", "text": "배경 이야기까지", "set": {"depth": 2}},
+      {"id": "d", "text": "자세히 알고 싶어요", "set": {"depth": 3}}]},
+    {"id": "t3", "section": "taste", "category": "미감", "text": "눈이 오래 머무는 아름다움은?", "options": [
+      {"id": "a", "text": "웅장한 건물의 구조와 비례", "tags": {"aesthetic": ["structure"]}},
+      {"id": "b", "text": "연못, 나무, 정원의 자연", "tags": {"aesthetic": ["garden"]}},
+      {"id": "c", "text": "단청과 문양의 색채", "tags": {"aesthetic": ["color"]}},
+      {"id": "d", "text": "석조, 기와, 담장의 질감", "tags": {"aesthetic": ["stone"]}}]},
+    {"id": "t4", "section": "taste", "category": "미감", "text": "좋아하는 계절의 풍경은?", "options": [
+      {"id": "a", "text": "새잎 돋는 봄의 연둣빛", "tags": {"aesthetic": ["garden"]}},
+      {"id": "b", "text": "짙은 여름 녹음과 그늘", "tags": {"aesthetic": ["garden", "shade"]}},
+      {"id": "c", "text": "단풍 든 가을의 색", "tags": {"aesthetic": ["color"]}},
+      {"id": "d", "text": "눈 덮인 겨울의 선", "tags": {"aesthetic": ["structure"]}}]},
+    {"id": "t5", "section": "taste", "category": "미감", "text": "어떤 시선의 풍경이 좋으세요?", "options": [
+      {"id": "a", "text": "넓게 트인 전망", "tags": {"aesthetic": ["structure", "view"]}},
+      {"id": "b", "text": "물에 비치는 정자와 나무", "tags": {"aesthetic": ["garden", "water"]}},
+      {"id": "c", "text": "골목과 담장이 이어지는 길", "tags": {"aesthetic": ["stone"]}},
+      {"id": "d", "text": "서양식과 한옥이 섞인 이색 풍경", "tags": {"aesthetic": ["eclectic"]}}]},
+    {"id": "t6", "section": "taste", "category": "분위기", "text": "끌리는 공간의 분위기는?", "options": [
+      {"id": "a", "text": "고요하고 사람이 적은 곳", "tags": {"mood": ["quiet"]}},
+      {"id": "b", "text": "위엄 있고 웅장한 곳", "tags": {"mood": ["grand"]}},
+      {"id": "c", "text": "아늑하고 은밀한 곳", "tags": {"mood": ["hidden"]}},
+      {"id": "d", "text": "탁 트이고 환한 곳", "tags": {"mood": ["open"]}}]},
+    {"id": "t7", "section": "taste", "category": "분위기", "text": "머물고 싶은 소리 환경은?", "options": [
+      {"id": "a", "text": "바람과 새소리뿐인 정적", "tags": {"mood": ["quiet"]}},
+      {"id": "b", "text": "물소리가 있는 곳", "tags": {"mood": ["hidden", "water"]}},
+      {"id": "c", "text": "적당한 사람들의 인기척", "tags": {"mood": ["open"]}},
+      {"id": "d", "text": "소리는 상관없어요", "tags": {"mood": []}}]},
+    {"id": "t8", "section": "taste", "category": "분위기", "text": "빛의 느낌은?", "options": [
+      {"id": "a", "text": "나뭇잎 사이로 스미는 은은한 빛", "tags": {"mood": ["hidden", "shade"]}},
+      {"id": "b", "text": "넓은 마당에 내리는 환한 빛", "tags": {"mood": ["open", "grand"]}},
+      {"id": "c", "text": "해 질 녘의 따뜻한 노을빛", "tags": {"mood": ["quiet"]}},
+      {"id": "d", "text": "흐린 날의 차분한 빛", "tags": {"mood": ["quiet"]}}]},
+    {"id": "t9", "section": "taste", "category": "기타", "text": "오늘 산책은 누구와 하나요?", "options": [
+      {"id": "a", "text": "혼자", "set": {"companion": "alone"}},
+      {"id": "b", "text": "연인·배우자", "set": {"companion": "couple"}},
+      {"id": "c", "text": "친구·가족", "set": {"companion": "friends"}},
+      {"id": "d", "text": "아이·부모님 등 보호가 필요한 동행", "set": {"companion": "care"}}]},
+    {"id": "t10", "section": "taste", "category": "기타", "text": "사진 촬영은 얼마나 중요한가요?", "options": [
+      {"id": "a", "text": "사진 명소가 최우선", "set": {"photo": 3}},
+      {"id": "b", "text": "예쁘면 찍어요", "set": {"photo": 2}},
+      {"id": "c", "text": "거의 안 찍어요", "set": {"photo": 1}},
+      {"id": "d", "text": "눈으로만 담아요", "set": {"photo": 0}}]}
+  ]
+}
